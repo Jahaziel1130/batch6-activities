@@ -19,8 +19,9 @@
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
             body {
-                background-image: url("Images/Home.jpeg");
+                background-image: url("Images/Home_black.jpeg");
                 background-size: cover;
+                background-blend-mode: soft-light;
             }
             h2 {
                 font-size: 75px;
@@ -28,19 +29,121 @@
                 color: white;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             }
+            * {
+                 margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Arial', sans-serif;
+                font-size: 1.1em;
+            }
+
+            .container {
+                width: 100%;
+            }
+
+            .row {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 5px;
+            }
+
+            /* content */
+            .row div {
+                background-color: #EF5350;
+                padding: 3%;
+                border: 1px solid white;
+                border-radius: 5px;
+                text-align: right;
+                color: white;
+                transition: background-color 1s;
+            }
+
+            .row div:nth-child(2n):hover {
+                background-color: #42A5F5;
+            }
+
+            .row div:nth-child(2n+1):hover {
+                background-color: #66BB6A;
+            }
+
+            /* 1/12 */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            /* 2/12 */
+            .col-2 {
+                width: 16.66%;
+            }
+
+            /* 3/12 */
+            .col-3 {
+                width: 25%;
+            }
+
+            /* 4/12 */
+            .col-4 {
+                width: 33.33%
+            }
+
+            /* 5/12 */
+            .col-5 {
+                width: 41.66%;
+            }
+
+            /* 6/12 */
+            .col-6 {
+                width: 50%;
+            }
+
+            /* 7/12 */
+            .col-7 {
+                width: 58.33%;
+            }
+
+            /* 8/12 */
+            .col-8 {
+                width: 66.66%;
+            }
+
+            /* 9/12 */
+            .col-9 {
+                width: 75%;
+            }
+
+            /* 10/12 */
+            .col-10 {
+                width: 83.33%;
+            }
+
+            /* 11/12 */
+            .col-11 {
+                width: 91.66%;
+            }
+
+            /* 12/12 */
+            .col-12 {
+                width: 100%;
+            }
         </style>
     </head>
     <body>
         <h1>JAHAZIEL TITULAR</h1>
         <br>
             <h3>
-                <p>My name is <b>JAHAZIEL,</b></p>
+                <p>My name is <a href="https://www.linkedin.com/in/jhzlt2lr/">JAHAZIEL,</a></p>
                 <p>I am a <b>Data Analytics practitioner</b> that ventures on <b>Software Engineering</b> through the program of Avion School.</p>
                 <p>You can see my sample of projects below.</p>
             </h3>
         <br>
         <h2>PROJECTS</h2>
         <br>
+        <div class="row">
+            <div class="col-4">BEST PRACTICE</div>
+            <div class="col-4">Email HTML Format</div>
+            <div class="col-4">Tribute Page</div>
+          </div>
         <a href="Project1.html">Project 1: Best Practice</a>
         
         <br>
