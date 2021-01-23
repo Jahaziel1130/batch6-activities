@@ -6,14 +6,14 @@ html, body {
 
 h1, h4, p {
   color: #AAAAAA;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 a, a:visited{
   color: white;
-}
-
-a:hover{
-  color:gray;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
@@ -28,14 +28,10 @@ a:hover{
     -o-background-size: cover;
 }
 
-.container {
-  margin-top: 50px;
-}
-
 .title {
   color: black;
-  font-family: 'Dosis', sans-serif;
-  font-size: 5em;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 6em;
   font-weight: bold;
 }
 
@@ -43,13 +39,12 @@ a:hover{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  color: white;
 }
 
 .margin-bottom {
   margin-bottom: 30px;  
 }
-
-.album-photo {
-  border: 1px solid black;
-  border-radius: 2%;
+.footer {
+  text-align: center;
 }
